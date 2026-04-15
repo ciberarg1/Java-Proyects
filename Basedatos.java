@@ -36,7 +36,7 @@ public class Basedatos extends JFrame {  // Con el extends JFrame le damos una v
     public void buscarPersona(String nombreABuscar) {
         String url = "jdbc:mysql://localhost:3306/trabajossql"; // "jdbc:mysql java usa esto para conectar con mysql
         String usuario = "root"; 
-        String password = "Rafael2000@"; 
+        String password = "(YOUR PASSWORD)"; 
 
         try {
             Connection conexion = DriverManager.getConnection(url, usuario, password);
